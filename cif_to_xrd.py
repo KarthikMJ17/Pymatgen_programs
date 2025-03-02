@@ -1,4 +1,14 @@
 #!/c/Users/karth/anaconda3/python
+
+"""
+Use cif files to generate powder xrd patters
+by default it plots 2Theta vs intensity using bar chart of matplotlib
+
+-d        In command line argument outputs data insted of plot
+-cut 50   Outpluts data with  
+
+"""
+
 from pymatgen.analysis.diffraction.xrd import XRDCalculator
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 from pymatgen.core.structure import Structure
