@@ -4,8 +4,9 @@
 Use cif files to generate powder xrd patters
 by default it plots 2Theta vs intensity using bar chart of matplotlib
 
--d        In command line argument outputs data insted of plot
--cut 50   Outpluts data with  
+-d                In command line argument outputs data insted of plot
+-cut 50           Outputs data with a intsity cutoff .. 50 is given here 
+-plotwithcut 50   Plots peks corresponding to intesities above cutoff
 
 """
 
