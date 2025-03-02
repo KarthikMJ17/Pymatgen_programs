@@ -1,3 +1,10 @@
+"""
+Ternaryhull plot using pymatgen
+"""
+
+
+
+
 from pymatgen.analysis.phase_diagram import PhaseDiagram, PDPlotter, PDPlotter3D
 from pymatgen.entries.computed_entries import ComputedEntry
 from pymatgen.core.composition import Composition
